@@ -7,8 +7,10 @@ int main() {
     int min, sec;
     printf("초를 입력하시오: ");
     scanf("%d", &sec);
+    
     min = trans_to_min(sec);
     print_time(min, sec);
+
     return 0;
 }
 

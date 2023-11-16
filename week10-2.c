@@ -3,7 +3,7 @@
 #include <time.h>
 
 int main() {
-    
+
     srand(time(NULL));
     int ans = rand() % 100 + 1;
     int x = 0;
@@ -22,5 +22,7 @@ int main() {
             break;
         }
     }
+
+    return 0;
 }
 
